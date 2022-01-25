@@ -9,6 +9,3 @@ def hailstone(integer):
                 counter += hailstone((integer * 3) + 1)
         return counter
 
-
-answer = hailstone(10)
-print(answer)
