@@ -1,4 +1,5 @@
 def hailstone(integer):
+    """Integer is the initial number of a hailstone sequence and returns steps it takes to reach 1."""
     counter = 1
     while (int(integer)) > 0:
         print(int(integer))
@@ -8,6 +9,3 @@ def hailstone(integer):
             else:
                 counter += hailstone((integer * 3) + 1)
         return counter
-
-
-print(hailstone(int(10)))
