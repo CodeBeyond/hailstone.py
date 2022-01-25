@@ -1,6 +1,6 @@
 def hailstone(integer):
     """Integer is the initial number of a hailstone sequence and returns steps it takes to reach 1."""
-    counter = 1
+    counter = 0
     while (int(integer)) > 0:
         if integer > 1:
             if integer % 2 == 0:
